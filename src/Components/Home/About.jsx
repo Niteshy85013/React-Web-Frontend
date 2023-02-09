@@ -7,7 +7,7 @@ const About = () => {
 <div class="container text-center">
         <div class="row">
             <div class="col-md-6">
-            {/* <img src="./image/about.png" style={{height:'25rem', width:'25rem'}} alt=""/> */}
+            <img src="https://imgs.search.brave.com/2V1MRVjbm-mY53dx7T4ENtX_vCxsk_O1ZBwLjdn2u70/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5G/WjJFbXZyUGNBSnhq/QkVZTlJOXzJBSGFI/YSZwaWQ9QXBp" class="img-fluid"style={{height:'25rem', width:'25rem'}} alt=""/>
 
             </div>
             <div class="col-md-6 mt-5 py-5">
@@ -27,7 +27,7 @@ const About = () => {
         <h1 class="text-center">Want to Explore our Books?</h1>
         <div class="row py-2">
         <div class="col-md-6 py-5">
-        <img src="./image/about.png" style={{height:'25rem', width:'25rem'}} alt=""/>
+        <img src="./image/about.png" class="img-fluid" style={{height:'25rem', width:'25rem'}} alt=""/>
             </div>
             <div class="col-md-6 py-5">
                 <h2 class=" text-center fst-italic ">Get Popular Books</h2>

@@ -1,6 +1,6 @@
 
 .card-shadows{
-    box-shadow: 0 0 10px #cf4f91;
+    box-shadow: 0 0 10px #03dacc;
     background: #fff;
     
     left: 0;
@@ -16,4 +16,8 @@
     top:0;
     z-index: 10;
     background-color: aliceblue;
+}
+
+.reg{
+    background-color: #85acce;
 }

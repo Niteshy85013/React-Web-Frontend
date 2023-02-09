@@ -7,7 +7,8 @@ const Header = () => {
   <div class="container">
          
     <a class="navbar-brand" href="/">
-        <img src="./images/logoss2.png" alt="logo" width="250" height="20"  class="d-inline-block align-text-top"/>
+        {/* <img src="./image/logomain.png" alt="logo"  style={{width:"5rem", height:"2rem"}}  class="d-inline-block align-text-top"/> */}
+        <h3 class="text-dark   fw-bold ">E-<span class="text-danger">Buy</span></h3>
        </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,21 +25,22 @@ const Header = () => {
         <li class="nav-item">
           <a class="nav-link active ms-2 fs-5" aria-current="page" href="#about">About</a>
         </li>
- 
+                                                                                                                                                                                                                                                                    
         <li class="nav-item">
           <a class="nav-link active ms-2 fs-5" aria-current="page" href="#contact-form">Contact</a>
         </li>
       
   
-      
+                                       
         
       </ul>
 
        <a href="/Product" class="btn btn-info ms-2 fw-bold fs-5">Products</a>
-      
-        <a href="/ShoopingCart" class="btn btn-outline-danger ms-2 fw-bold fs-5 " type="submit">Login</a>
+                             
+       <a href="/" class="btn btn-dark ms-2 fw-bold fs-5">Cart<i class="fa fa-shopping-cart"                                                                                                                                                                                                                                                                                                                                               ></i></a>
+        <a href="/Loginpage" class="btn btn-outline-danger ms-2 fw-bold fs-5 " type="submit">Login</a>
         
-      
+                                                                                                                                                                                                                                                                   
     
     </div>
   </div>
